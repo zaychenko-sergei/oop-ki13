@@ -332,7 +332,7 @@ DECLARE_OOP_TEST( watermachine_test_operator_bool )
 	m1.fillWater();
 	assert( m1 == true );
 
-	WaterMachine m2( 0.5, 100, 100, 3.0 );
+	WaterMachine m2( 0.5, 100, 100, 0.3 );
 	m2.fillWater();
 	assert( m2 == false );
 
