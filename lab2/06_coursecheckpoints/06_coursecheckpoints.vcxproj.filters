@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{8c6d96fe-366b-4e43-a265-f6666e95f16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{c52ab48d-974e-4ce1-8a78-703b68a766fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="course.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="checkpoint.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="student.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="course.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="checkpoint.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="student.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

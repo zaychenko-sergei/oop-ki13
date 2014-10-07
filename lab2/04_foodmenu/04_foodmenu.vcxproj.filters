@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{72bddd92-6db5-4dcc-b793-672cab8b7679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{dae3969e-2dfc-4d05-b359-b87c7e43bba2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="foodproduct.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="foodproduct.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{0fd0f88c-894d-4bdc-b31c-422cf5f62be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{3a515aad-0b26-4d77-a9db-3ced8a23517b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="leader.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="country.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="historyperiod.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="leader.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="country.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="historyperiod.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

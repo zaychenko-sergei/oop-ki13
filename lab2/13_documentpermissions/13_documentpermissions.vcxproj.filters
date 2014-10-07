@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{aa62e752-fe88-48b6-a635-11398ca6924e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{5f40dec7-1e0e-4995-badb-b06df5915729}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="document.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="user.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="document.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="permissionkind.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

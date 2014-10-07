@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="participant.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="meeting.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{737df458-1eb3-419f-bdc2-7aff940e6781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{165095c1-e4fb-4f74-a9ba-e4da42faea26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="participant.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="meeting.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
