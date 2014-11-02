@@ -180,9 +180,9 @@ Controller::hasBook ( std::string const & _title, int _edition ) const
 std::set< std::string > 
 Controller::fetchAuthorsNotBeingTranslated ()
 {
-	// TODO - analyze books and find those, that were never translated to a different language
-	// Return set of original titles.
-	// If there are no such books, return empty set
+	// TODO - analyze book authors and find those, whose books were never translated to a different language
+	// Return set of authors.
+	// If there are no such authors, return empty set
 
 	assert( ! "Not implemented yet" );
 
