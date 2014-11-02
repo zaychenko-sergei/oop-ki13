@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{f372bc4d-e832-4532-8365-b0f4d721494c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{1c97fc8a-9d98-48fe-9a1d-fe11eb14003c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="treeitem.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="leaftreeitem.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="parenttreeitem.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controller.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="messages.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="treeitem.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="leaftreeitem.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="parenttreeitem.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

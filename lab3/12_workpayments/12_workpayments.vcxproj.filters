@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{30dd8d2b-5ea6-4328-b5bf-4adcc2c52748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{eec249b6-3104-4f6f-b8cc-d5388432c0cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="employee.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="hourlyemployee.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="salaryemployee.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="internemployee.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controller.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="messages.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="employee.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="hourlyemployee.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="salaryemployee.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="internemployee.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

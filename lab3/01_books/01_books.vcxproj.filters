@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{f37d2866-4608-49af-9622-3ffcb0861433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{a15686b3-3f6d-4ffb-83ad-077bf01ce6ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="translated_book.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_book.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="book.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="revised_book.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="derived_book.hpp">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="messages.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="translated_book.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_book.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="revised_book.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="derived_book.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
