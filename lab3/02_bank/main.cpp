@@ -14,13 +14,13 @@ void runTest1 ()
 	Controller controller;
 
 	// Wasya: $1500 initially, no overdrat
-	// Petya:  $100 initially, but with overdraft of max $300 allowed
+	// Petya:  $300 initially, but with overdraft of max $300 allowed
 
 	const int wasyaID = controller.createAccount( "Wasya", 1500 );
-	const int petyaID = controller.createAccount( "Petya", 100, 300 );
+	const int petyaID = controller.createAccount( "Petya", 300, 300 );
 
 	assert( controller.getBalance( wasyaID ) == 1500 );
-	assert( controller.getBalance( petyaID ) == 100 );
+	assert( controller.getBalance( petyaID ) == 300 );
 
 	// Wasya: add $100, balance = $1600
 	controller.deposit( wasyaID, 100.0 );
